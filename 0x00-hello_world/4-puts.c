@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * Description: main - Entry point
- * Return - always 0
+ *
+ * Retrun: Always 0 (Success)
  */
 
 int main(void)
