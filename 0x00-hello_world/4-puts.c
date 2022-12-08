@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main always returns 0
+ * Description main always returns 0
  * puts "prgramming is like building a multilingual puzzle
  */
 int main(void)
