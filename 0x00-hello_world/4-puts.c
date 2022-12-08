@@ -2,11 +2,9 @@
 
 /*
  
-   * Description: main - Prints out a string to stdout.
- 
-   * Return: 0 if success.
- 
- */
+   * Description - main function always return 0
+   * print "prgramming is like building a multilingual puzzle 
+*/
 
 
 
