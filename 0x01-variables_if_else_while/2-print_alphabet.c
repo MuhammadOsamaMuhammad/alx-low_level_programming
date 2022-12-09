@@ -13,10 +13,10 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		printf("%c", i);
+		putchar(i);
 	}
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
