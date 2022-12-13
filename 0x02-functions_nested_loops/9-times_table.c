@@ -11,27 +11,27 @@
 
 void times_table(void)
 {
-	int n, r, f;
+	int rone, cone, d;
 
-	for (n = 0; n <= 9; n++)
+	for (rone = 0; rone <= 9; rone++)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (r = 1; r <= 9; r++)
+		for (cone = 1; cone <= 9; cone++)
 		{
-			f = (n * r);
-			if ((f / 10) > 0)
+			d = (rone * cone);
+			if ((d / 10) > 0)
 			{
-				_putchar((f / 10) + '0');
+				_putchar((d / 10) + '0');
 			}
 			else
 			{
 				_putchar(' ');
 			}
-			_putchar((f % 10) + '0');
+			_putchar((d % 10) + '0');
 
-			if (f < 9)
+			if (cone < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -39,4 +39,5 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
+
 }
