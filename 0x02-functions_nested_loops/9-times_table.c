@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *  time_table - Entry point
- *
- * Return: void
- *
- * description: print the time table from 0 to 9
+ * times_table -  a function that prints the 9 times table, starting with 0
+ * rone = row, cone = column, d = digits of current result
+ * Return: times table
+ * add extra space past single digit
  */
 
 
