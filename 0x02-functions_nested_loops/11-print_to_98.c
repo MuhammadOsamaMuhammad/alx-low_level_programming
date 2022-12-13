@@ -1,27 +1,21 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * add - Entry point
- *
- * @i: first param
- *
- * @s: second param
- * Return: int
- *
- * description: print sum of two numbers
+ * print_to_98 - a function that prints all natural numbers from n to 98
+ * user input's number prints to 98, regardless < 98 or > 98
+ * @n: number input
+ * Return: Always 0 (Success)
  */
-
 void print_to_98(int n)
 {
 	if (n < 98)
 	{
 		while (n <= 98)
 		{
-			_putchar((n) + '0');
-			if (n != 95)
+			printf("%d", n);
+			if (n != 98)
 			{
-				_putchar(',');
-				_putchar(' ');
+				printf(", ");
 			}
 			n++;
 		}
@@ -30,20 +24,17 @@ void print_to_98(int n)
 	{
 		while (n >= 98)
 		{
-			_putchar((n) + '0');
-			if (n != 95)
+			printf("%d", n);
+			if (n != 98)
 			{
-				_putchar(',');
-				_putchar(' ');
+				printf(", ");
 			}
 			n--;
 		}
 	}
 	else
 	{
-		_putchar('9');
-		_putchar('8');
+		printf("98");
 	}
-	_putchar('\n');
-
+	printf("\n");
 }
