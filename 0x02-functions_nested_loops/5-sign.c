@@ -16,9 +16,6 @@ int print_sign(int a)
 	if (a > 0)
 	{
 		_putchar('+');
-		_putchar(',');
-		_putchar(' ');
-		_putchar('1');
 		return (1);
 	}
 	else if (a < 0)
