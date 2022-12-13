@@ -17,7 +17,7 @@ void print_to_98(int n)
 	{
 		while (n <= 98)
 		{
-			_putchar(n + '0');
+			_putchar((n) + '0');
 			if (n != 95)
 			{
 				_putchar(',');
@@ -30,7 +30,7 @@ void print_to_98(int n)
 	{
 		while (n >= 98)
 		{
-			_putchar(n + '0');
+			_putchar((n) + '0');
 			if (n != 95)
 			{
 				_putchar(',');
