@@ -1,5 +1,5 @@
 
 void _putchar ()
 {
-	printf("_putchar\n")
+	printf("_putchar\n");
 }
