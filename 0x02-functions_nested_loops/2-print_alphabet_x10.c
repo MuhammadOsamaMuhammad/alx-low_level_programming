@@ -3,13 +3,13 @@
 /**
  * print_alphabet_x10 - Entry point
  *
- * Return: Always 0
+ * Return: Always void
  *
  * description: print alphabet 10x
  */
 
 
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i = 0;
 
