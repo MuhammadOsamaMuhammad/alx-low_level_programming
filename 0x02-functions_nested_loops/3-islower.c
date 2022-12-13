@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - Entry point
+ * _islower - Entry point
  *
  * Return: 0 or 1
  *
@@ -9,7 +9,7 @@
  */
 
 
-int islower(int a)
+int _islower(int a)
 {
 	if (a >= 'a' && a <= 'z')
 	{
