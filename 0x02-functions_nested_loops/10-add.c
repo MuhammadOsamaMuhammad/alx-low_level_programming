@@ -11,7 +11,7 @@
  * description: print sum of two numbers
  */
 
-int add(int i, int s) 
+int add(int i, int s)
 {
 	return (i + s);
 }
