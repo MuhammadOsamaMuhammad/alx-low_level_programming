@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int print_sign - Entry point
+ * print_sign - Entry point
  *
  * Return: -1 or 0 or 1
  *
