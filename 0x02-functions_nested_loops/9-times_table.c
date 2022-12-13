@@ -19,10 +19,10 @@ void times_table(void)
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (r = 0; r < 9; r++)
+		for (r = 1; r < 9; r++)
 		{
 			f = n * r;
-			if (f / 10 > 0)
+			if ((f / 10) > 0)
 			{
 				_putchar((f / 10) + '0');
 			}
