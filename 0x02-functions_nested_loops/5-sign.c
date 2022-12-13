@@ -11,7 +11,7 @@
  */
 
 
-int int print_sign(int a)
+int print_sign(int a)
 {
 	if (a > 0)
 	{
