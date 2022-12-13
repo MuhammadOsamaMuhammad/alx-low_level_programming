@@ -3,7 +3,7 @@
 /**
  * print_alphabet - Entry point
  *
- * Return: Always 0
+ * Return: void
  *
  * description: print lowercase alphabet
  */
@@ -20,6 +20,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
