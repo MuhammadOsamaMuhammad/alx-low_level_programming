@@ -9,7 +9,7 @@
  */
 
 
-int print_alphabet(int a)
+int islower(int a)
 {
 	if (a >= 'a' && a <= 'z')
 	{
