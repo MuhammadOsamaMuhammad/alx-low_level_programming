@@ -5,6 +5,8 @@
  *
  * Return: 0 or 1
  *
+ * @a: an int
+ *
  * description: print lowercase alphabet
  */
 
@@ -15,5 +17,5 @@ int _islower(int a)
 	{
 		return (1);
 	}
-	return (1);
+	return (0);
 }
