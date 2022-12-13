@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 {
 	int i = 0;
 
-	char f;
+	int f;
 
 	while (i < 10)
 	{
