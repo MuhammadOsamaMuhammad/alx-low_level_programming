@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * largest_number - returns the largest of 3 numbers
+ * largest_number - entry point
  * @a: input int
  * @b: input int
  * @c: input int
@@ -10,13 +10,13 @@
 
 int largest_number(int a, int b, int c)
 {
-  if (a > b && a > c)
-  {
-     return (a);
-  }
-  else if (b > c)
-  {
-    return (b);
-  }
-    largest = c;
+	if (a > b && a > c)
+	{
+		return (a);
+	}
+	else if (b > c)
+	{
+		return (b);
+	}
+	return (c);
 }
