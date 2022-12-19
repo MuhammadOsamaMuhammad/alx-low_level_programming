@@ -2,7 +2,7 @@
 
 /**
  * _puts - function that print a string using pointers
- * @s: pointer
+ * @str: pointer
  * Return: void
  */
 
