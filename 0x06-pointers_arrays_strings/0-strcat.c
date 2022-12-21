@@ -3,9 +3,9 @@
 /**
  * _strcat - function to concate two strings
  *
- * @*dest: first string
+ * @dest: first string
  *
- * @*src: second string
+ * @src: second string
  *
  * Return: pointer to the first string
 */
@@ -30,5 +30,5 @@ char *_strcat(char *dest, char *src)
 		dest[l2 + i] = src[i];
 		l2++;
 	}
-	return (dest);
+	return (*dest);
 }
