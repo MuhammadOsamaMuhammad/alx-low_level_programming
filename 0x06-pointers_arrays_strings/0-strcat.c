@@ -2,8 +2,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int l1; 
-	int l2; 
+	int l1;
+	int l2;
 	int i;
 
 	l1 = 0;
