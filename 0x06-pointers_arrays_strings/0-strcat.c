@@ -5,22 +5,23 @@
 
 char *_strcat(char *dest, char *src)
 {
-	unsigned int i;
+	int len1; /* string length for src */
+	int len2; /* string length for dest */
+	int i;
 
-	unsigned int destLen = strlen(dest);
-	
-	unsigned int srcLen = strlen(src);
-	
-	i =  destLen + srcLen;
-	
-	int s = 0;
-	
-	unsigned int srcLen = strlen(src);
-	int s = 0;
-	while (s < srcLen)
+	len1 = 0;
+	len2 = 0;
+
+	while (src[len1] != '\0')
+		len1++;
+
+	while (dest[len2] != '\0')
+		len2++;
+
+	for (i = 0; i <= len1; i++)
 	{
-		dest[destLen] = src[s];
-		s++;
+		dest[len2] = src[i];
+		len2++;
 	}
-	return (*dest);
+	return (dest);
 }
