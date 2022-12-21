@@ -1,5 +1,15 @@
 #include "main.h"
 
+/**
+ * _strcat - function to concate two strings
+ *
+ * @*dest: first string
+ *
+ * @*src: second string
+ *
+ * Return: pointer to the first string
+*/
+
 char *_strcat(char *dest, char *src)
 {
 	int l1;
