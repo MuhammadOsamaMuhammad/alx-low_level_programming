@@ -3,12 +3,12 @@
 /**
  * cap_string - function to cap all string
  *
- * @n: string
+ * @str: string
  *
  * Return: pointer
 */
 
-char *cap_string(char *n)
+char *cap_string(char *str)
 {
 	int index;
 
