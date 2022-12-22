@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _leet - function to encode a string
+ * leet - function to encode a string
  *
  * @n: string
  *
