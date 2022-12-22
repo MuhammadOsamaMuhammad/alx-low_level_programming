@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - function to compater strings
+ * reverse_array - function to reverse a string
  *
  * @a: array
  *
