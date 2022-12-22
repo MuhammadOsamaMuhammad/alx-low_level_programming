@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper - function to cap all string
+ * cap_string - function to cap all string
  *
  * @n: string
  *
@@ -10,8 +10,10 @@
 
 char *cap_string(char *n)
 {
-	int index = 0;
-	
+	int index;
+
+	index = 0;
+
 	while (str[index])
 	{
 		while (!(str[index] >= 'a' && str[index] <= 'z'))
