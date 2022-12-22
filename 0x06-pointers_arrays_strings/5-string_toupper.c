@@ -3,9 +3,9 @@
 /**
  * string_toupper - function to change lower case to upper case
  *
- * @n : string
+ * @n: string
  *
- * Return: pointer to the string
+ * Return: pointer
 */
 
 char *string_toupper(char *n)
@@ -17,7 +17,7 @@ char *string_toupper(char *n)
 	{
 		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			n[i] = n[i] + 32;
+			n[i] = n[i] - 32;
 		}
 		i++;
 	}
