@@ -33,6 +33,7 @@ char *_strncat(char *dest, char *src, int n)
 		else
 		{
 			dest[len2 + i] = '\0';
+			break;
 		}
 	}
 // 	dest[l + i] = '\0';
