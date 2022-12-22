@@ -7,6 +7,8 @@
  *
  * @src: second string
  *
+ * @n: number of chars to be copied
+ *
  * Return: pointer to the first string
 */
 
