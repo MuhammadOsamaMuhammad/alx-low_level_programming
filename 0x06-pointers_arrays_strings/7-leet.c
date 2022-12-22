@@ -12,6 +12,7 @@ char *leet(char *n)
 {
 	int i;
 	int j;
+
 	char a1[] = "aAeEoOtTlL";
 	char a2[] = "4433007711";
 
@@ -25,6 +26,5 @@ char *leet(char *n)
 			}
 		}
 	}
-
 	return (n);
 }
