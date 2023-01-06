@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main -Prints the name of the program
+ * main -Print the arguments
  * @argc: number of the params to the program
  * @argv: array of the program prarms
  * Return: returns 0 when succsess
@@ -10,7 +10,12 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[argc - 1]);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 
 	return (0);
 }

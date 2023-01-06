@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * main - entry point
+ * main -entry point
  * @argc: number of param
  * @argv: the param
  * Return: return 0
