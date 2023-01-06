@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main -Print the arguments
+ * main - Entry point
  * @argc: number of the params to the program
  * @argv: array of the program prarms
-:x
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
