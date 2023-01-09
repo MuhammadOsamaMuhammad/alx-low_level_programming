@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup - Entry point
+ * strnew - Entry point
  *
  * @s1: first string
  *
