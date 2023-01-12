@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdib.h>
-#include <stdio.h>
+
 
 /**
  * malloc_checked - Entry point
  * @b: the size to allocate in the memory
- * Return: void
+ * Return: pointer
  */
 
 
