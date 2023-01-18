@@ -2,10 +2,9 @@
 
 /**
   * print_name - initializes a variable
-  *
-  * @name: name.
-  * @f: pointer.
-  * Return: nothing.
+  * @name: name
+  * @f: pointer
+  * Return: nothing
   */
 void print_name(char *name, void (*f)(char *))
 {
